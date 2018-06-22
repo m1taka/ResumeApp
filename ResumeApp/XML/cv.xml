@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Resume xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FName>Dimitar</FName>
+  <LName>Dimitrov</LName>
+  <Address>qr. “Mladost”, Sofia, Bulgaria</Address>
+  <Mobile>0887777666</Mobile>
+  <Email>dimitar.dimitrov@gmail.com</Email>
+  <Sex>Male</Sex>
+  <DateofBirth>0001-01-01T00:00:00</DateofBirth>
+  <Nationality>Bulgarian</Nationality>
+  <Employments>
+    <Employment>
+      <Position>Software Developer</Position>
+      <Company>Some Company</Company>
+      <DateStart>2017-09-05T00:00:00</DateStart>
+      <DateEnd>2018-06-11T00:00:00</DateEnd>
+    </Employment>
+    <Employment>
+      <Position>Software Developer </Position>
+      <Company>Some Company</Company>
+      <DateStart>2017-02-07T00:00:00</DateStart>
+      <DateEnd>2017-08-31T00:00:00</DateEnd>
+    </Employment>
+    <Employment>
+      <Position>Software Developer - Internship </Position>
+      <Company>Some Company</Company>
+      <DateStart>2017-12-21T00:00:00</DateStart>
+      <DateEnd>2016-09-01T00:00:00</DateEnd>
+    </Employment>
+  </Employments>
+  <Educations>
+    <Education>
+      <Title>Master of Computer Science</Title>
+      <University>Technical University of Sofia</University>
+      <Speciality>Computer Technology and Application Programming</Speciality>
+      <DateStart>0001-01-01T00:00:00</DateStart>
+      <DateEnd>0001-01-01T00:00:00</DateEnd>
+    </Education>
+    <Education>
+      <Title>Bachelor of Electrical Engineering</Title>
+      <University>Technical University of Sofia</University>
+      <Speciality>Electrical Machines</Speciality>
+      <DateStart>0001-01-01T00:00:00</DateStart>
+      <DateEnd>0001-01-01T00:00:00</DateEnd>
+    </Education>
+  </Educations>
+</Resume>

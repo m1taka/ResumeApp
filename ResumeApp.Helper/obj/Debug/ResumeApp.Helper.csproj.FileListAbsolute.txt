@@ -1,0 +1,10 @@
+D:\Projects\ResumeApp\ResumeApp.Helper\bin\Debug\ResumeApp.Helper.dll
+D:\Projects\ResumeApp\ResumeApp.Helper\bin\Debug\ResumeApp.Helper.pdb
+D:\Projects\ResumeApp\ResumeApp.Helper\obj\Debug\ResumeApp.Helper.dll
+D:\Projects\ResumeApp\ResumeApp.Helper\obj\Debug\ResumeApp.Helper.pdb
+D:\Projects\ResumeApp\ResumeApp.Helper\bin\Debug\ResumeApp.Helper.dll.config
+D:\Projects\ResumeApp\ResumeApp.Helper\bin\Debug\EntityFramework.dll
+D:\Projects\ResumeApp\ResumeApp.Helper\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\ResumeApp\ResumeApp.Helper\bin\Debug\EntityFramework.xml
+D:\Projects\ResumeApp\ResumeApp.Helper\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\ResumeApp\ResumeApp.Helper\obj\Debug\ResumeApp.Helper.csprojResolveAssemblyReference.cache

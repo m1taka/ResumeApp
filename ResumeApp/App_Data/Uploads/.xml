@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Info xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FName>Pesho</FName>
+  <LName>Mitkov</LName>
+  <Address>1712, qr. “Mladost” 3, Sofia, Bulgaria</Address>
+  <Mobile>0885-979-044</Mobile>
+  <Email>dimitar.lukarski@gmail.com</Email>
+  <Sex>Male</Sex>
+  <Nationality>Bulgarian</Nationality>
+</Info>

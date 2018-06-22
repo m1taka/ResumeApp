@@ -1,0 +1,89 @@
+﻿@model ResumeApp.Helper.External.Models.Resume
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Resume</h2>
+
+<h3>
+    @Html.ActionLink("Edit", "Edit")
+</h3>
+<div class="jumbotron">
+    <div>
+        @Html.LabelFor(m => m.FName)
+        @Html.DisplayFor(m => m.FName)
+    </div>
+    <div>
+        @Html.LabelFor(m => m.LName)
+        @Html.DisplayFor(m => m.LName)
+    </div>
+   
+    <div>
+        @Html.LabelFor(m => m.Mobile)
+        @Html.DisplayFor(m => m.Mobile)
+    </div>
+
+    <div>
+        @Html.LabelFor(m => m.Email)
+        @Html.DisplayFor(m => m.Email)
+    </div>
+</div>
+<br/><br/>
+<div id="jobs" class="jumbotron">
+    @foreach (var job in Model.Employments)
+    {
+        <div class="job">
+            <div>
+                @Html.LabelFor(m => job.Position)
+                @Html.DisplayFor(m => job.Position)
+            </div>
+            <div>
+                @Html.LabelFor(m => job.Company)
+                @Html.DisplayFor(m => job.Company)
+            </div>
+            <div>
+                @Html.LabelFor(m => job.DateStart)
+                @Html.DisplayFor(m => job.DateStart)
+            </div>
+            <div>
+                @Html.LabelFor(m => job.DateEnd)
+                @Html.DisplayFor(m => job.DateEnd)
+            </div>
+            <br/>
+
+
+        </div>
+    }
+</div>
+<br /><br />
+<div id="edu" class="jumbotron">
+    @foreach (var e in Model.Educations)
+    {
+        <div class="edu">
+        </div>
+        <div>
+            @Html.LabelFor(m => e.Title)
+            @Html.DisplayFor(m => e.Title)
+        </div>
+        <div>
+            @Html.LabelFor(m => e.Speciality)
+            @Html.DisplayFor(m => e.Speciality)
+        </div>
+        <div>
+            @Html.LabelFor(m => e.University)
+            @Html.DisplayFor(m => e.University)
+        </div>
+        <div>
+            @Html.LabelFor(m => e.DateStart)
+            @Html.DisplayFor(m => e.DateStart)
+        </div>
+        <div>
+            @Html.LabelFor(m => e.DateEnd)
+            @Html.DisplayFor(m => e.DateEnd)
+        </div>
+        <br/>
+    }
+
+    </div>
+
